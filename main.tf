@@ -13,3 +13,8 @@ resource "aws_instance" "web" {
     Name =  var.instance_id[count.index]
   }
 }
+
+resource "null_resource" "cluster" {
+  input=""
+
+}
