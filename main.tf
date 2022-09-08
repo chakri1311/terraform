@@ -11,10 +11,12 @@ resource "aws_instance" "web" {
 
   tags = {
     Name =  var.instance_id[count.index]
+    Name =  var.instance_id[count.index]
   }
 }
 
 resource "null_resource" "cluster" {
   input=""
+  
 
 }
