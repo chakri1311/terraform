@@ -19,5 +19,8 @@ resource "null_resource" "cluster" {
   input=""
   input=""
   input="nothing"
+    input=""
+  input=""
+  input=""
 }
 
