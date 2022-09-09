@@ -15,9 +15,5 @@ resource "aws_instance" "web" {
   }
 }
 
-resource "null_resource" "cluster" {
-  input=""
-  
 
-}
 
